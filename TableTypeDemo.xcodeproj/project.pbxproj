@@ -14,6 +14,7 @@
 		ADAF42041C4E15E200731CB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAF42031C4E15E200731CB7 /* Images.xcassets */; };
 		ADAF42071C4E15E200731CB7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADAF42051C4E15E200731CB7 /* LaunchScreen.xib */; };
 		ADAF42131C4E15E200731CB7 /* TableTypeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAF42121C4E15E200731CB7 /* TableTypeDemoTests.m */; };
+		ADAF421D1C4E1BBB00731CB7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ADAF421C1C4E1BBB00731CB7 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		ADAF420C1C4E15E200731CB7 /* TableTypeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableTypeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADAF42111C4E15E200731CB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADAF42121C4E15E200731CB7 /* TableTypeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableTypeDemoTests.m; sourceTree = "<group>"; };
+		ADAF421C1C4E1BBB00731CB7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				ADAF42001C4E15E200731CB7 /* Main.storyboard */,
 				ADAF42031C4E15E200731CB7 /* Images.xcassets */,
 				ADAF42051C4E15E200731CB7 /* LaunchScreen.xib */,
+				ADAF421C1C4E1BBB00731CB7 /* icon.png */,
 				ADAF41F61C4E15E200731CB7 /* Supporting Files */,
 			);
 			path = TableTypeDemo;
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADAF421D1C4E1BBB00731CB7 /* icon.png in Resources */,
 				ADAF42021C4E15E200731CB7 /* Main.storyboard in Resources */,
 				ADAF42071C4E15E200731CB7 /* LaunchScreen.xib in Resources */,
 				ADAF42041C4E15E200731CB7 /* Images.xcassets in Resources */,
