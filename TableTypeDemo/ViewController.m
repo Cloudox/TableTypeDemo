@@ -58,37 +58,43 @@
             cell =[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellOne];
             // 设置不可点击
             cell.selectionStyle = UITableViewCellSelectionStyleNone;
-            cell.imageView.image = [UIImage imageNamed:@"icon"];
-            cell.textLabel.text = @"textLabel";
+            cell.imageView.image = [UIImage imageNamed:@"icon"];// 图片
+            cell.textLabel.text = @"textLabel";// 文本
         }
             break;
         case 1:// UITableViewCellStyleSubtitle类型，支持显示图片和文本以及子文本
         {
             NSString *CellTwo = @"CellTwo";
+            // 设置tableview类型
             cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellTwo];
+            // 设置不可点击
             cell.selectionStyle = UITableViewCellSelectionStyleNone;
-            cell.imageView.image = [UIImage imageNamed:@"icon"];
-            cell.textLabel.text = @"textLabel";
-            cell.detailTextLabel.text = @"detailTextLabel";
+            cell.imageView.image = [UIImage imageNamed:@"icon"];// 图片
+            cell.textLabel.text = @"textLabel";// 文本
+            cell.detailTextLabel.text = @"detailTextLabel";// 子文本
         }
             break;
-        case 2:
+        case 2:// UITableViewCellStyleValue1类型，支持显示图片和文本以及子文本
         {
             NSString *CellThree = @"CellThree";
+            // 设置tableview类型
             cell =[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellThree];
+            // 设置不可点击
             cell.selectionStyle = UITableViewCellSelectionStyleNone;
-            cell.imageView.image = [UIImage imageNamed:@"icon"];
-            cell.textLabel.text = @"textLabel";
-            cell.detailTextLabel.text = @"detailTextLabel";
+            cell.imageView.image = [UIImage imageNamed:@"icon"];// 图片
+            cell.textLabel.text = @"textLabel";// 文本
+            cell.detailTextLabel.text = @"detailTextLabel";// 子文本
         }
             break;
-        case 3:
+        case 3:// UITableViewCellStyleValue2类型，支持显示文本以及子文本
         {
             NSString *CellFour = @"CellFour";
+            // 设置tableview类型
             cell =[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue2 reuseIdentifier:CellFour];
+            // 设置不可点击
             cell.selectionStyle = UITableViewCellSelectionStyleNone;
-            cell.textLabel.text = @"textLabel";
-            cell.detailTextLabel.text = @"detailTextLabel";
+            cell.textLabel.text = @"textLabel";// 文本
+            cell.detailTextLabel.text = @"detailTextLabel";// 子文本
         }
             break;
     }
