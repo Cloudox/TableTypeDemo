@@ -15,6 +15,7 @@
 		ADAF42071C4E15E200731CB7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADAF42051C4E15E200731CB7 /* LaunchScreen.xib */; };
 		ADAF42131C4E15E200731CB7 /* TableTypeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAF42121C4E15E200731CB7 /* TableTypeDemoTests.m */; };
 		ADAF421D1C4E1BBB00731CB7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ADAF421C1C4E1BBB00731CB7 /* icon.png */; };
+		ADAF421F1C4E283900731CB7 /* screen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADAF421E1C4E283900731CB7 /* screen.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		ADAF42111C4E15E200731CB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADAF42121C4E15E200731CB7 /* TableTypeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableTypeDemoTests.m; sourceTree = "<group>"; };
 		ADAF421C1C4E1BBB00731CB7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		ADAF421E1C4E283900731CB7 /* screen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screen.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				ADAF41F51C4E15E200731CB7 /* TableTypeDemo */,
 				ADAF420F1C4E15E200731CB7 /* TableTypeDemoTests */,
 				ADAF41F41C4E15E200731CB7 /* Products */,
+				ADAF421E1C4E283900731CB7 /* screen.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -203,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADAF421D1C4E1BBB00731CB7 /* icon.png in Resources */,
+				ADAF421F1C4E283900731CB7 /* screen.jpg in Resources */,
 				ADAF42021C4E15E200731CB7 /* Main.storyboard in Resources */,
 				ADAF42071C4E15E200731CB7 /* LaunchScreen.xib in Resources */,
 				ADAF42041C4E15E200731CB7 /* Images.xcassets in Resources */,
